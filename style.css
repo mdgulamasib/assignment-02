@@ -1,0 +1,38 @@
+/* Fonts and other settings for whole website */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Header styles starts here */
+.container{
+    display: flex;
+    height: 87px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+}
+.nav-menu{
+    display: flex;
+    gap: 25px;
+
+}
+.website-name{
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-menu > li{
+    list-style: none;
+}
+.nav-menu > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* Header styles ends here */
+
+
+
