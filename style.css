@@ -1,6 +1,7 @@
 /* Fonts and other settings for whole website */
 body{
     font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
 }
 
 
@@ -33,6 +34,8 @@ body{
     font-weight: 600;
 }
 
+
+
 .intro{
     display: flex;
     justify-content: space-between;
@@ -40,14 +43,25 @@ body{
     margin: 0 120px 100px;
 
 }
-.left-intro{
-    width: 582px;
+.intro:hover img{
+    transform: scale(.90) rotate(5deg);
+    transition: transform 1s ease-in-out;
 }
+.left-intro{
+    width: auto;
+}
+.left-intro h1{
+    font-size: 52px;
+}
+
 .left-intro > p{
     text-align: justify;
 }
 .right-intro-img{
     width: auto;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 5px;
 }
 .click-button{
     padding:10px 24px;
@@ -57,17 +71,28 @@ body{
     color: white;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
+
+.click-button:hover{
+    background-color: #E02C6D;
+    color: rgb(43, 37, 48);
+    transition: .5s;
+}
+
 .fa-arrow-right{
     margin-left: 10px;
 }
 /* Header styles ends here */
 
 
+
+
 /* Main styles starts here */
 
 .collection-title{
     text-align: center;
+    font-size: 28px;
     margin-bottom: 40px;
 }
 
@@ -92,8 +117,20 @@ body{
     width: 260px;
     height: 256px;
 }
+
+.product-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.product-detail h4{
+    font-weight: 300;
+}
 .product-detail p{
     margin-bottom: 0px;
+    color: rgb(120, 120, 133, 1);
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .filled{
@@ -135,7 +172,9 @@ body{
 
 .facilities-details > .icon-resizing{
     font-size: 50px;
+    color: #E02C6D;
 }
+/* Main ends here */
 
 
 
@@ -159,13 +198,19 @@ body{
 
 .footer-details > .social-icon{
     font-size: 20px;
-    padding: 0 10px;
+    margin: 0 10px;
 }
+.footer-details a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+/* Footer ends here */
 
 
 
 
-/* Responsive design */
+/* Mobile screen resize responsive media query */
 
 @media only screen and (max-width: 688px) {
     
@@ -215,6 +260,8 @@ body{
     }
     
 }
+
+/* Tab screen resize responsive media query */
 
 @media only screen and (min-width: 688px) and  (max-width: 992px) {
     .container{
