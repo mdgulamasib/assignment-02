@@ -1,6 +1,7 @@
 /* Fonts and other settings for whole website */
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -221,6 +222,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin:  0;
     }
 
     .nav-menu > li > a{
