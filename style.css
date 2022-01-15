@@ -1,5 +1,6 @@
 /* Fonts and other settings for whole website */
 *{
+    width: auto;
     margin: 0;
     padding: 0;
 }
@@ -76,12 +77,12 @@ body{
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
-    margin-top: 20px;
+    margin: 20px 0 20px;
 }
 
 .click-button:hover{
     background-color: #E02C6D;
-    color: rgb(43, 37, 48);
+    color: rgb(222, 248, 232);
     transition: .5s;
 }
 
