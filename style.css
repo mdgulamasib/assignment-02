@@ -32,7 +32,138 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px 100px;
+
+}
+.left-intro{
+    width: 582px;
+}
+.left-intro > p{
+    text-align: justify;
+}
+.right-intro-img{
+    width: auto;
+}
+.click-button{
+    padding:10px 24px;
+    background: #E02C6D;
+    border-radius: 41px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
 /* Header styles ends here */
 
 
+/* Main styles starts here */
+
+.collection-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.item-section{
+    display: grid;
+    justify-content: center;
+}
+
+.all-product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product{
+    width: 260px;
+    padding: 30px;
+    margin: 0px;
+    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.20);
+}
+.product-img > img{
+    width: 260px;
+    height: 256px;
+}
+.product-detail p{
+    margin-bottom: 0px;
+}
+
+.filled{
+    color: goldenrod;
+}
+
+.empty{
+    color: silver;
+}
+
+.see-more-link{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 5px;
+}
+
+.see-more-link a{
+    text-decoration: none;
+    color: #E02c6d;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Extra-facilities{
+    display: grid;
+    justify-content: center;
+}
+
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 30px;
+}
+
+.facilities-details{
+    text-align: center;
+}
+
+.facilities-details > .icon-resizing{
+    font-size: 50px;
+}
+
+
+
+/* Footer starts here */
+
+.footer-design{
+    background-color: rgba(10, 8, 38, 1);
+    border-radius: 10px;
+
+}
+
+.footer-details{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.footer-details p{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.footer-details > .social-icon{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
+
+
+/* Responsive design */
 
