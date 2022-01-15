@@ -218,7 +218,6 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 15% 0% 5%;
     }
 
     .nav-menu > li > a{
@@ -230,7 +229,7 @@ body{
     }
 
     .intro{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
         margin: 5px;
@@ -278,7 +277,7 @@ body{
     }
 
     .intro{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
         margin: 5px;
