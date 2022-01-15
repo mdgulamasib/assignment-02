@@ -1,4 +1,7 @@
 /* Fonts and other settings for whole website */
+*{
+    margin: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
@@ -182,7 +185,7 @@ body{
 
 .footer-design{
     background-color: rgba(10, 8, 38, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
